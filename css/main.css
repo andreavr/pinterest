@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+}
+.box-header{
+  display: inline-block;
+  padding: 10px;
+}
+.box-search {
+  background-color: #EFEFEF;
+  width: 50%;
+}
+
+.box-header li {
+  display: inline;
+}
