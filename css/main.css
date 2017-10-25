@@ -10,8 +10,7 @@ header {
   position: fixed;
   background-color: #fff;
   top: 0px;
-  width: 100%
-  z-index: 2;
+  margin-left: 50px;
 }
 
 .bar {
@@ -19,6 +18,7 @@ header {
   position: relative;
   margin-right: auto;
   margin-left: auto;
+  background-color: #fff;
 }
 
 .search{
@@ -169,7 +169,6 @@ li {
   column-width: 200px;
   column-count: 4;
   column-gap: 10px;
-  display: inline-block;
 }
 
 .imagenes .column {
