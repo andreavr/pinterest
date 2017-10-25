@@ -9,41 +9,39 @@ body {
 header {
   position: fixed;
   background-color: #fff;
-  width: 100%;
-  top: 0;
-  padding: 0;
-  z-index: 1000;
+  top: 0px;
+  width: 100%
+  z-index: 2;
 }
 
-.menu {
-  padding: 10px 0;
-  width: 100%;
-  margin: 0;
-  border-bottom: 1px solid #d3d3d3;
+.bar {
+  width: 1200px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.menu li {
-  font-size: 16px;
-  font-weight: 700;
-  padding: 0 5px;
-}
-
-.menu .input {
-  background-color: #fff;
-  border-radius: 5px;
-  margin: 0 16px;
-  width: 70%;
-  padding: 10px;
+.search{
   display: inline-block;
+  position: relative;
+  left:20px;
+  width: 940px;
+  background:#efefef;
+  border-radius: 10px;
+  height: 45px;
 }
 
-.menu li, .sub-menu li {
-    list-style: none;
-    display: inline-block;
+p{
+  display: inline-block;
+  position: relative;
+  left: 55px;
 }
+
 
 .icon-pinterest {
-    font-size: 30px;
-    margin-left: 80px;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
     color: rgb(172, 27, 27);
+    text-decoration: none;
 }
