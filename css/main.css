@@ -35,13 +35,122 @@ p{
   display: inline-block;
   position: relative;
   left: 55px;
+  font-family:Helvetica;
+
 }
 
+.icon-pinterest{
+  font-size: 45px;
+  color: #bd081c;
+  position: relative;
+  top:10px;
+}
 
-.icon-pinterest {
-    font-size: 40px;
-    position: relative;
-    top: 10px;
-    color: rgb(172, 27, 27);
-    text-decoration: none;
+.icon-search{
+  position: relative;
+  left:45px;
+  font-size: 18px;
+}
+
+input{
+  position: relative;
+  left:47px;
+  width: 700px;
+  border: none;
+  background: #efefef;
+  font-size: 18px;
+}
+
+.icon-cross{
+  position: relative;
+  left:47px;
+}
+
+.icon-down{
+  position: relative;
+  left: 56px;
+  font-size: 23px;
+  top:4px;
+}
+
+.icon-user{
+  position: relative;
+  left:55px;
+  font-size: 25px;
+  color: #b5b5b5;
+}
+
+.icon-menu{
+  position: relative;
+  left:80px;
+  font-size: 25px;
+  color: #b5b5b5;
+}
+
+.icon-bubble{
+  position: relative;
+  left: 105px;
+  font-size: 25px;
+  color: #b5b5b5;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  background:#d3d3d3;
+  left: 0px;
+}
+
+.sub-menu {
+  padding-left: 110px;
+}
+
+li {
+  display: inline-block;
+  height: 25px;
+  padding: 20px 20px;
+  padding-bottom: 20px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: red;
+  color:#fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+#li1 {
+  background-color: #725E4E
+}
+
+#li2 {
+  background-color: #AB8B6F
+}
+
+#li3 {
+  background-color: #8A6A4E
+}
+
+#li4 {
+  background-color: #907054
+}
+
+#li5 {
+  background-color: #97934C
+}
+
+#li6 {
+  background-color: #02524B
+}
+
+#li7 {
+  background-color: #9B8C85
+}
+
+#li8 {
+  background-color: #98785D
+}
+
+#li9 {
+  background-color: #B17F77
 }
