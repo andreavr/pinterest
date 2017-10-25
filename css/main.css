@@ -1,3 +1,49 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+.menu {
+  padding: 10px 0;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.menu li {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+.menu .input {
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 16px;
+  width: 70%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.menu li, .sub-menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.icon-pinterest {
+    font-size: 30px;
+    margin-left: 80px;
+    color: rgb(172, 27, 27);
+}
